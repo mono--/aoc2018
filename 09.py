@@ -1,8 +1,7 @@
 
-#players=425
-#last=70848
 players=9;
 last=25;
+
 scores=[0]*players;
 
 #list copy implementation -> runtime for part 1 ~ 1 min
@@ -96,6 +95,8 @@ class ring_buf:
 		else:
 			return(None);
 
+players=425
+last=70848
 
 last=last*100;
 
